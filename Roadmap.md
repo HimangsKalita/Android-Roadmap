@@ -1,0 +1,348 @@
+## Todo
+0. Basics
+   - Programming
+      - Java
+      - Kotlin
+   - Android Studio
+      - Android Studio IDE Overview
+      - Project Structure
+      - Java/Kotlin
+      - AndroidManifest.xml file
+      - .gradle files
+1. Support User Interface
+   - Progress Bar
+2. Build
+   - Gradle
+   - Debug/Release configuration
+3. App Manifest
+    - Package
+    - Application ID
+3. App Components
+    - Activities
+      - Activity lifecycle
+      - Activity State changes
+      - Task and back stack
+      - Parcelables & Bundles
+    - Service
+      - Types of Android Services
+      - The Life Cycle of Android Services
+    - Broadcast Receiver
+      - Implicit Broadcast Exceptions
+    - Content Provider
+      - Content URI
+      - Operations in Content Provider
+      - Working of the Content Provider
+      - Creating a Content Provider
+    - Intent
+      - Intent Filters
+      - Explicit intents
+      - Implicit intents
+    - Static User Interface
+      - View
+        - Button, ImageView, TextView, EditText etc
+      - ViewGroup
+        - LinearLayout, RelativeLayout, FrameLayout, ConstraintLayout
+    - Dynamic User Interface
+        - RecyclerView
+        - ViewPager
+        - Spinner
+    - CustomView
+        - Canvas
+        - Bitmap
+        - Paint
+    - UI Resources
+        - Drawables
+        - String
+        - Styles
+3. App shortcuts
+3. App Navigation 
+    - Navigation Component
+      - Navigation Graph
+      - Global Actions
+      - Destinations
+      - Deeplink
+    - Fragments
+      - Fragments
+        - Fragment lifecycle
+        - Fragment state changes
+        - Fragment manager
+        - Fragment transactions
+      - DialogFragment
+      - BottomSheetDialogFragment
+    - App Links
+      - Tablayout
+      - Viewpager
+      - Viewpager2
+      - Custom back navigation
+3. App Startup
+3. Architecutre Pattern 
+    - UI Layer
+      - ViewBinding
+      - DataBidning
+      - Lifecycle
+      - ViewModel
+      - LiveData
+      - Paging
+    - Data Layer
+      - Data store
+      - Workmanager
+4. Design Patterns
+    - Singleton Pattern
+    - Builder Pattern
+    - Factory Pattern
+    - Repository Pattern
+    - Observer Pattern
+      - Flow
+      - RxJava/RxKotlin
+      - LiveData
+    - Dependency Injection
+      - Dragger
+      - Hilt
+      - Koin
+      - Kodein
+14. Architecture
+    - MVVM
+    - MVP    
+    - MVI
+    - MVC
+    - Clean architecture
+      - Presenters (use case(entities))
+10. Networking
+    - GET/POST/DELETE/PUT/PATCH
+    - Fast Android Networking Library
+    - OkHttp
+      - Interceptor
+    - Okio
+    - Caching
+    - Retrofit with Coroutines/Flow
+    - Ktor
+    - Apollo-Android
+    - Multipart request
+    - Read, Write Timeout
+    - OAuth 2.0 - Refresh and Access Token
+    - HTTP Status Codes
+6. 3rd Party Library
+    - Image Loading
+      - Glide
+      - Picasso
+      - Fresco
+      - COIL
+11. Local Storage
+    - Shared Preferences
+    - File Systems
+    - SQLite
+      - Room
+      - SQLDelight
+      - Data store
+      - Realm
+9. Data Format
+    - JSON
+      - GSON
+    - Flat Buffer
+    - Protocol Buffer
+10. Asynchronous
+    - Coroutines - You can learn these topics here: [Master Kotlin Coroutines](https://amitshekhar.me/blog/kotlin-coroutines)
+      - coroutines
+      - suspend
+      - launch, async-await, withContext
+      - dispatchers
+      - scope, context, job
+      - lifecycleScope, viewModelScope, GlobalScope
+      - suspendCoroutine, suspendCancellableCoroutine
+      - coroutineScope, supervisorScope8. 
+    -Kotlin Flow API - You can learn these topics here: [Kotlin Flow API](https://amitshekhar.me/blog/flow-api-in-kotlin)
+      - Flow Builder, Operator, Collector
+      - flowOn, dispatchers
+      - Operators such as filter, map, zip, flatMapConcat, retry, debounce,
+distinctUntilChanged, flatMapLatest
+      - Terminal operators
+      - Cold Flow vs Hot Flow: [Cold Flow vs Hot Flow](https://amitshekhar.me/blog/cold-flow-vs-hot-flow)
+      - [StateFlow, SharedFlow](https://amitshekhar.me/blog/stateflow-and-sharedflow), callbackFlow, channelFlow
+    - RxJava/RxKotlin
+    - Thread
+      - Thread
+      - Handler/Looper
+      - ThreadPoolExecutor
+    - Workmanager
+12. User Interface
+    - Layouts
+      - ConstraintLayout
+      - MotionLayout
+      - LinearLayout
+      - Framelayout
+      - RecyclerView
+    - Design Guides
+      - Material
+      - Material Yout
+      - Neumorphism
+    - Styles
+      - Light Theme
+      - Dark Theme
+    - Message
+      - Toast
+      - Snackbar
+      - Notification
+    - Animation
+      - ValueAnimator
+      - ObjectAnimator
+      - Lottie
+      - Material Motion
+12. Android Jetpack
+    - Foundation Components
+      - AppCompat
+      - Android KTX
+      - Multidex
+    - Architecture Components
+      - LiveData
+      - ViewModel
+      - DataBinding
+      - Paging
+      - Work Manager
+      - Navigation    - Behaviour Components
+      - Download Manager
+      - Media Playback
+      - Notification
+      - Permissions
+      - Preference
+      - Sharing
+      - Slice
+    - UI Component
+      - Animation & Transition
+      - Android Auto
+      - Emoji
+      - Palette
+      - Android TV
+      - Android Wear
+13. Compose
+    - Recomposition
+      - Snapshot
+    - State    
+      - MutableState
+      - remember
+      - rememberSaveable
+      - State hoisting
+    - Side-effects
+      - LaunchedEffect
+      - DisposableEffect
+      - ProduceState
+      - derivedStateOf
+      - snapShotFlow
+    - Theming
+      - Material
+        - Color
+        - Typography
+        - Shape
+      - Custom
+        - Dimens
+        - Factories
+        - Data
+    - Modifier
+      - Modifier Order
+      - Chaining
+      - Composed modifier
+    - Layout
+      - Column
+      - Row
+      - Box
+      - ConstraintLayout
+    - List
+      - LazyColumn
+      - LazyRow
+      - LazyVerticalGrid
+      - LazyPagingItems
+    - Image
+      - Injection
+      - Image
+        - Coil-Compose
+        - Landscapist
+    - Text
+      - Textfield
+      - OutlinedTextField
+      - ClickableText
+    - Graphics
+      - Surface
+      - Canvas
+    - Animation
+      - AnimatedVisibility
+      - MutableTransitionState
+      - AnimatedContent
+      - Crossfade
+    - Gestures
+      - Scrolling
+      - Dragging
+      - Swiping
+      - Zooming
+    - CompositionLocal
+      - CompositionLocalProvider
+      - CompositionLocalOf
+      - staticCompositionLocalOf
+14. Service
+    - Google
+      - Google play Services
+      - Google maps
+    - Firebase
+      - Authentication
+      - Crashlytics
+      - Analytics
+      - Remote Config
+      - FCM (Firebase Cloud Messaging)
+      - Firestone
+      - Realtime Database
+      - App Indexing
+      - Dynamic Link
+    - Advertisement
+      - Google Admob
+      - Meta Audience Network
+      - MoPub
+14. Code Anaalysis & Test
+    - Linter
+      - Ktlint
+      - Detekt
+      - Android Lint
+    - Debugging
+      - Memory profiling
+      - Logging
+      - Systrace
+      - Exceptions
+      - Error Handling
+      - Memory Leak
+        - Cause of memory leaks
+        - Detecting and Fixing Memory Leaks
+        - Context
+      - Timber
+      - Leak canary
+      - Stetho
+      - Chucker
+      - Jetpack Benchmark
+    - Unit Testing
+      - Unit Test
+        - Junit
+        - Kluent
+        - Mockk
+      - Android Test
+        - Robolectric
+        - Espresso
+        - Kaspresso
+      - Local Unit Testing
+      - Instrumentation Testing
+    - Benchmark
+17. Security
+    - Encrypt / Decrypt
+    - Proguard
+    - R8
+18. CI/CD
+    - Github Actions
+    - Jenkins
+    - Travis CI
+    - Circle CI
+    - Bitrise
+18. App Release
+    - Android Package
+        - APK
+        - AAB 
+    - Application ID
+    - .keystore file
+    - App Bundle
+    - Signed APK
+    - Firebase App Distribution
+    - Playstore
